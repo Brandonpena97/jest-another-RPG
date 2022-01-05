@@ -25,7 +25,7 @@ function Enemy(name, weapon) {
         const max = this.strength + 5;
 
         return Math.floor(Math.random() * (max - min) + min);
-    };
+    }; 
 
     Enemy.prototype.reduceHealth = function (health) {
         this.health -= health;

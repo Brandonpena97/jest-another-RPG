@@ -21,7 +21,7 @@ function Player(name = '') {
   };
 
   // returns the inventory array or false if empty
-  Player.prototype.getInventory = function () {
+  Player.prototype.getInventory = function () { 
     if (this.inventory.length) {
       return this.inventory;
     }
