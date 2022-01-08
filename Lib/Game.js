@@ -114,9 +114,8 @@ Game.prototype.checkEndOfBattle = function () {
         } else {
             console.log('You win!');
         }
-    }
-    else {
-        console.log("You've been defeated")
+    } else {
+        console.log("You've been defeated!");
     }
 };
 
